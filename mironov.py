@@ -2,7 +2,7 @@ import numpy as np
 
 
 
-def mironov_model(T, C, m_v, p_d):
+def mironov_model(T, C, m_v, p_d = 1.5):
     """
     Calculate the complex permittivity (at 1.4 Ghz) of frozen and thaw soil
     input param
